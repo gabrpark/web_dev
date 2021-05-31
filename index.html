@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.83.1">
-    <title>Starter Template · Bootstrap v5.0</title>
+    <title>Example Website: Bootstrap v5.0</title>
 <!--
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
 -->
@@ -34,59 +34,38 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="navbar-top-fixed.css" rel="stylesheet">
   </head>
   <body>
 
-<div class="col-lg-8 mx-auto p-3 py-md-5">
-  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
-    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-      <span class="fs-4">Example</span>
-    </a>
-  </header>
-
-  <main>
-    <h1>This is my website exaple page</h1>
-    <p class="fs-5 col-md-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-    <div class="mb-5">
-      <a href="./examples/" class="btn btn-primary btn-lg px-4">Button1</a>
-    </div>
-
-    <hr class="col-3 col-md-2 mb-5">
-
-    <div class="row g-5">
-      <div class="col-md-6">
-        <h2>Experiences</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <ul class="icon-list">
-          <li><a href="" rel="noopener" target="_blank">Experience1</a></li>
-          <li><a href="" rel="noopener" target="_blank">Experience2</a></li>
-          <li><a href="" rel="noopener" target="_blank">Experience3</a></li>
-          <li><a href="" rel="noopener" target="_blank">Experience4</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-white fixed-top bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color:#1f1f1f" href="">Example</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
+    </nav>
 
-      <div class="col-md-6">
-        <h2>Skills</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <ul class="icon-list">
-          <li><a href="./getting-started/introduction/">Skill1</a></li>
-          <li><a href="./getting-started/webpack/">Skill2</a></li>
-          <li><a href="./getting-started/parcel/">Skill3</a></li>
-          <li><a href="./getting-started/build-tools/">Skill4</a></li>
-        </ul>
+    <main class="container-fluid">
+      <div class="bg-light p-5 rounded">
+        <h3>Life is short, try new activities</h3>
+        <h1>Get new experiences</h1>
+        <a class="btn btn-lg btn-primary border-dark bg-dark" href="" role="button">Browse activities</a>
       </div>
-    </div>
-  </main>
-  <footer class="pt-5 my-5 text-muted border-top">
-    Example &middot; &copy; 2021
-  </footer>
-</div>
+    </main>
 
 
-    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
-  </body>
-</html>
+      </body>
+    </html>
