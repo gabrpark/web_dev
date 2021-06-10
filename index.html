@@ -1,81 +1,116 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.83.1">
-    <title>coinexample: Bootstrap v5.0</title>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.83.1">
+  <title>coinexample: Bootstrap v5.0</title>
 
 
-    <!-- Bootstrap core CSS -->
-<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+    }
+  </style>
 
 
-    <!-- Custom styles for this template -->
-    <link href="navbar-top-fixed.css" rel="stylesheet">
-  </head>
-  <body>
+  <!-- Custom styles for this template -->
+  <link href="navbar-top-fixed.css" rel="stylesheet">
+</head>
+<body>
 
-    <nav class="navbar navbar-expand-md navbar-white fixed-top bg-primary">
-      <div class="container-sm">
-        <a class="navbar-brand" style="color:#FFFFFF" href="">coinexample</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" style="color:#FFFFFF" href="./prices/prices.html">Prices</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" style="color:#FFFFFF" href="#">Learn</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" style="color:#FFFFFF" href="#">Institutions</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-            <button class="btn" style="color:#FFFFFF" type="submit">Sign In</button>
-            <button class="btn" style="color:#FFFFFF" type="submit">Create Account</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
-    <main class="container-fluid">
-      <div class="bg-white p-5 rounded">
-        <div class="container py-3">
-          <h1>Buy Bitcoin & Crypto</h1>
-          <div class="contianer-sm">
-            <h4>coinexample is the most secure place to buy and sell cryptocurrency.</h4>
+  <div class="container-fluid p-0">
+  <!-- HEADER SECTION -->
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top bg-primary">
+        <div class="container-sm">
+          <a class="navbar-brand text-white" href="">coinexample</a>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="./prices/prices.html">Prices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#">Learn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#">Institutions</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn text-white" type="submit">Sign In</button>
+              <button class="btn text-white" type="submit">Create Account</button>
+            </form>
           </div>
-          <a class="btn btn-lg btn-primary border-primary bg-primary" href="#" role="button">Get started</a>
         </div>
-      </div>
+      </nav>
+    </header>
+
+    <!-- BODY SECTION -->
+    <main class="container-fluid p-0">
+      <section class="container-sm bg-white p-5">
+          <h1>Buy Bitcoin & Crypto</h1>
+          <h4>coinexample is the most secure place to buy and sell cryptocurrency.</h4>
+          <a class="btn btn-lg btn-primary border-primary bg-primary" href="#" role="button">Get started</a>
+      </section>
+      <section class="container-fluid bg-primary p-5">
+      </section>
     </main>
 
+    <!-- FOOTER SECTION -->
+    <footer class="container-sm pt-4 my-md-5 pt-md-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <!-- <img class="mb-2" src="../assets/brand/bootstrap-logo.svg" alt="" width="24" height="19"> -->
+          <a class="navbar-brand text-primary">coinexample</a>
+          <small class="d-block mb-3 text-muted">&copy; 2021</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Prices</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Prices Overview</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Learn</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Crypto fundemantals</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Careers</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Help center</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Status</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
 
-        <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
-      </body>
-    </html>
+</body>
+
+</html>
