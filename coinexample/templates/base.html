@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.83.1">
+  <title>Cryptocurrency Exchange | coinexample </title>
+  {% load static %}
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="{% static 'assets/dist/css/bootstrap.min.css' %}">
+  <!-- <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="{% static 'css/navbar-top-fixed.css' %}">
+  <!-- <link href="navbar-top-fixed.css" rel="stylesheet"> -->
+  <!-- jQuery Google CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container-fluid p-0">
+  <!-- HEADER SECTION -->
+    <header>
+      {% include 'navbar.html' %}
+    </header>
+
+    <!-- BODY SECTION -->
+    <main class="container-fluid p-0">
+      {% include 'home.html' %}
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="container-sm pt-4 my-md-5 pt-md-5">
+      {% include 'footer.html' %}
+    </footer>
+  </div>
+
+
+  <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
