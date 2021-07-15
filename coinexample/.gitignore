@@ -1,0 +1,8 @@
+# Mac OS X stuff:
+.DS_Store
+
+# Django stuff:
+db.sqlite3
+
+# Environments
+.env
